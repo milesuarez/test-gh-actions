@@ -12,3 +12,9 @@ jobs:
         run: |
           node -v
           npm -v
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Create a Release
+        run: npx semantic-release
+        env: 
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
