@@ -9,3 +9,5 @@ fix multiline message
 show message with commit from comand line
 
 new version add BREAKING CHANGE
+
+new version add BREAKING CHANGE II
