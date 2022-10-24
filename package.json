@@ -11,5 +11,6 @@
   "devDependencies": {
     "generate-changelog": "^1.8.0",
     "semantic-release": "^19.0.5"
-  }
+  },
+  "version": "0.1.0"
 }
