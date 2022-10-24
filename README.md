@@ -13,3 +13,5 @@ new version add BREAKING CHANGE
 new version add BREAKING CHANGE II
 
 add feature
+
+test changelog generation
