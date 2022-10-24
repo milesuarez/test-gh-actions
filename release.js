@@ -10,11 +10,11 @@ module.exports = {
               "changelogFile": "CHANGELOG.md"
             }
           ],
-          [
+        [
             "@semantic-release/git",
             {
-              "assets": ["CHANGELOG.md"]
+                "assets": ["CHANGELOG.md"]
             }
-          ]
+        ]
       ] 
   }

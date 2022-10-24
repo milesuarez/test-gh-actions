@@ -6,10 +6,10 @@
     "release:patch": "changelog -p && git add CHANGELOG.md && git commit -m \"updated CHANGELOG.md\" && npm version patch && git push origin && git push origin --tags"
   },
   "dependencies": {
-    "@semantic-release/changelog": "^6.0.1",
     "create-javascript-app": "^0.4.0"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
     "semantic-release": "^19.0.5"
   }
 }
